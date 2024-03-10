@@ -16,16 +16,16 @@ Modify the video_path parameter in the config/default.yaml file to specify the d
 Set the keep_processing parameter to true if you want the video to loop continuously.
 ## To run the node:
 
-'''sh
+```sh
 colcon build --symlink-install
 source install/setup.bash
 ros2 launch image_pub image_pub.launch.py
-'''
+```
 
 Or, you can use the provided script:
 
-'''sh
+```sh
 bash run.sh
-'''
+```
 
 This setup will allow you to test image processing algorithms by publishing video data as ROS2 messages. If you encounter any issues or have further questions, don’t hesitate to reach out for assistance. Good luck with your development!
