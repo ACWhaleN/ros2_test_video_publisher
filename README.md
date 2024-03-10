@@ -21,7 +21,7 @@ To run the `ros2_test_video_publisher` node, use the following commands:
 ```bash
 colcon build --symlink-install
 source install/setup.bash
-ros2 launch image_pub image_pub.launch.py
+ros2 launch ros2_test_video_publisher ros2_test_video_publisher.launch.py
 ```
 
 Alternatively, you can execute the provided script:
