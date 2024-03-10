@@ -1,0 +1,9 @@
+# config/default.yaml
+
+
+/test/image_publisher:
+  ros__parameters:
+    video_path: "/root/rm_perception/src/ros2_test_video_publisher/data/video/test.mp4"
+    keep_processing: true
+
+

@@ -19,7 +19,7 @@ Set the keep_processing parameter to true if you want the video to loop continuo
 ```sh
 colcon build --symlink-install
 source install/setup.bash
-ros2 launch image_pub image_pub.launch.py
+ros2 launch ros2_test_video_publisher ros2_test_video_publisher.launch.py
 ```
 
 Or, you can use the provided script:
